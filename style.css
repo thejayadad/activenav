@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    list-style: none;
+    padding: 10px 20px;
+    transition: all .2s ease;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover,
+li.active{
+    background-color: orangered;
+}
+li:hover a,
+li.active a{
+    color: white;
+
+}
